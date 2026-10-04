@@ -1,7 +1,7 @@
 # ISETC2026---4Layer_SRCNN
 # 4-Layer SRCNN
 
-Code for the paper **"<Adaptive Image Restoration via Enhanced Multi-Layer SRCNN Architectures>"** (ISETC 2026).
+Code for the paper **"Adaptive Image Restoration via Enhanced Multi-Layer SRCNN Architectures"** (ISETC 2026).
 
 This repository studies the effect of adding one convolutional layer to the baseline SRCNN and of reducing the number of filters to lower the parameter count and FLOPs. The goal is not to propose the best-performing architecture, but to quantify the trade-off between reconstruction quality and computational cost.
 
@@ -47,8 +47,8 @@ If you use this code, please cite:
 
 ```bibtex
 @inproceedings{<key>,
-  title     = {<paper title>},
-  author    = {<authors>},
+  title     = {Adaptive Image Restoration via Enhanced Multi-Layer SRCNN Architectures},
+  author    = {Amirali ABEDI, Mugura\c{s} MOCOFAN,
   booktitle = {ISETC 2026},
   year      = {2026}
 }
