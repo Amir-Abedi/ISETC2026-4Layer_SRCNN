@@ -52,9 +52,9 @@ The trained weights are also provided in the `weights/` folder of this repositor
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{
+@inproceedings{abedi2026adaptive,
   title     = {Adaptive Image Restoration via Enhanced Multi-Layer SRCNN Architectures},
-  author    = {Amirali ABEDI, Mugura{\c{s}} MOCOFAN,
+  author    = {Abedi, Amirali and Mocofan, Muguraş},
   booktitle = {ISETC 2026},
   year      = {2026}
 }
