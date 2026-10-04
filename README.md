@@ -1,4 +1,3 @@
-# ISETC2026---4Layer_SRCNN
 # 4-Layer SRCNN
 
 Code for the paper **"Adaptive Image Restoration via Enhanced Multi-Layer SRCNN Architectures"** (ISETC 2026).
@@ -20,6 +19,13 @@ All models work on the Y channel of a bicubic-upscaled image (x3).
 
 ## Repository structure
 
+```text
+.
+├── srcnn-additional-layer.ipynb
+├── classical-interpolation.ipynb
+├── weights/
+└── README.md
+```
 
 ## Notebooks
 
@@ -46,9 +52,9 @@ The trained weights are also provided in the `weights/` folder of this repositor
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{<key>,
+@inproceedings{
   title     = {Adaptive Image Restoration via Enhanced Multi-Layer SRCNN Architectures},
-  author    = {Amirali ABEDI, Mugura\c{s} MOCOFAN,
+  author    = {Amirali ABEDI, Mugura{\c{s}} MOCOFAN,
   booktitle = {ISETC 2026},
   year      = {2026}
 }
