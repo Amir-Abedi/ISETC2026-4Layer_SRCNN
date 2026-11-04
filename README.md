@@ -2,7 +2,7 @@
 
 Code for the paper **"Adaptive Image Restoration via Enhanced Multi-Layer SRCNN Architectures"** (ISETC 2026).
 
-This repository studies the effect of adding one convolutional layer to the baseline SRCNN and of reducing the number of filters to lower the parameter count and FLOPs. The goal is not to propose the best-performing architecture, but to show the impact of adding one layer to non-linear mapping layer so the impact in visuality could be significant for some images since RF is 15 in this variant.
+This repository studies the effect of adding one convolutional layer to the baseline SRCNN and of reducing the number of filters to lower the parameter count and FLOPs. The goal is not to propose the best-performing architecture, but to show the impact of adding one layer to non-linear mapping layer so the impact in visuality could be significant for some images since RF is 15 in this variant instead of the others which has 13.
 
 ## Models
 
