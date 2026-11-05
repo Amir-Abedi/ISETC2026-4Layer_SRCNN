@@ -8,12 +8,6 @@ This repository studies the effect of adding one convolutional layer to the base
 
 All models work on the Y channel of a bicubic-upscaled image (x3).
 
-| Model | Kernels | Parameters | FLOPs* |
-|---|---|---|---|
-| Baseline | 9-1-5 | 8,129 | |
-| Smooth | 7-1-7 | 11,457 |  |
-| Sharp | 9-3-3 | 21,953 |  |
-| **Four-layer** | **9-3-1-5** | **7,921** | **154.0 M** |
 
 
 
@@ -23,7 +17,7 @@ All models work on the Y channel of a bicubic-upscaled image (x3).
 .
 ├── srcnn-additional-layer.ipynb
 ├── classical-interpolation.ipynb
-├── weights/
+└── 4layer-vs-3layer-proof.ipynb
 └── README.md
 ```
 
