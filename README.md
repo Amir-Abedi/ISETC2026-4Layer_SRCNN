@@ -8,7 +8,14 @@ This repository studies the effect of adding one convolutional layer to the base
 
 All models work on the Y channel of a bicubic-upscaled image (x3).
 
+| Model | Kernels | Filters | Parameters | FLOPs* |
+|---|---|---|---|---|
+| Baseline | 9-1-5 | 64-32 | 8,129 | 14.80 G |
+| Smooth | 7-1-7 | 64-48 | 8,673 | 15.78 G |
+| Sharp | 9-3-3 | 32-20 | 8,585 | 15.73 G |
+| **Four-layer** | **9-3-1-5** | **32-16-16** | **7,921** | **14.48 G** |
 
+\*FLOPs = 2 × MACs, for a 1280×720 single-channel (Y) input with same padding; biases and ReLU not counted.
 
 
 ## Repository structure
